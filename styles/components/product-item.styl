@@ -3,6 +3,13 @@ product-item
   position relative
   margin-bottom 1rem
 
+  a
+    display block
+    color #000
+
+    &:hover
+      text-decoration none
+
   .photo
     position absolute
     top 0
@@ -24,7 +31,7 @@ product-item
     right 1rem
     bottom 3rem
 
-  &.card
+  &.card, &.card a
     background-color rgba(134, 134, 134, 0.1)
     color #fff
 
