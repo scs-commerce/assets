@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": {},
   "author": "Falk Hoppe <falkhoppe81@gmail.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "build:css": "mkdir -p dist/styles && stylus styles/scs-commerce.main.styl -o dist/styles/scs-commerce.main.css",
     "watch:css": "mkdir -p dist/styles && stylus -w styles/scs-commerce.main.styl -o dist/styles/scs-commerce.main.css",
