@@ -11,7 +11,6 @@ export default class ProductList extends HTMLElement {
 
     this.dom = {}
     this.dom.fetchIndicator = new ProductListFetchIndicator()
-
     return self
   }
 
