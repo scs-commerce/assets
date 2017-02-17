@@ -2,7 +2,7 @@ const rollup = require('rollup').rollup
 const babel = require('rollup-plugin-babel')
 
 rollup({
-  entry: './javascripts/scs-commerce.main.js',
+  entry: './src/javascripts/scs-commerce.main.js',
   external: ['zepto'],
   plugins: [ babel({
     exclude: 'node_modules/**'

@@ -1,7 +1,7 @@
 const express = require('express')
 const morgan = require('morgan')
 
-const config = require('./package.json').config
+const config = require('../package.json').config
 
 const app = express()
 
